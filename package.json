@@ -3,8 +3,8 @@
   "description": "A semver range validator",
   "version": "0.1.0",
   "dependencies": {
-    "semverionizer-parser": "git://bitbucket.org/orangemug/semversionizer-parser.git",
-    "semverionizer-comparison": "git://bitbucket.org/orangemug/semversionizer-comparison.git"
+    "semversionizer-parser": "git://github.com/orangemug/semversionizer-parser.git",
+    "semversionizer-comparison": "git://github.com/orangemug/semversionizer-comparison.git"
   },
   "devDependencies": {
     "mocha": "*",

@@ -1,4 +1,4 @@
-var parse   = require("semversionizer-parse");
+var parse   = require("semversionizer-parser");
 var compare = require("semversionizer-comparison");
 
 var VERSION_REGEXP = '[0-9]+\\.[0-9]+\\.[0-9]+(?:\\-(?:[0-9A-Za-z-.]+))?(?:\\+(?:[0-9A-Za-z-.]+))?';
