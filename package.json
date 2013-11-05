@@ -1,0 +1,18 @@
+{
+  "name": "semversionizer-range",
+  "description": "A semver range validator",
+  "version": "0.1.0",
+  "dependencies": {
+    "semverionizer-parser": "git://bitbucket.org/orangemug/semversionizer-parser.git",
+    "semverionizer-comparison": "git://bitbucket.org/orangemug/semversionizer-comparison.git"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "benchmark": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/spec.js",
+    "perf": "node test/perf.js"
+  }
+}
