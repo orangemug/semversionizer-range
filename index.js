@@ -51,6 +51,15 @@ var DEFS = [
       // Just check the semver is valid.
       return (parse(vb) !== undefined);
     }
+  },
+  {
+    // Range
+    regexp: new RegExp("^("+VERSION_REGEXP+")\\s+-\\s+("+VERSION_REGEXP+")$"),
+    handler: function(va, vb, vc) {
+      var rsltA = compare(vc, va);
+      var rsltB = compare(vc, vb);
+      return (rsltA === 1 && rsltB === -1);
+    }
   }
 ];
 
